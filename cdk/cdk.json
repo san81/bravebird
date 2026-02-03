@@ -1,0 +1,10 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/bravebird.ts",
+  "context": {
+    "alarms": {
+      "highQueueThreshold": 50,
+      "normalQueueThreshold": 200,
+      "dlqThreshold": 1
+    }
+  }
+}
